@@ -11,4 +11,13 @@ MongoClient.connect(connectionUrl,{useNewUrlParser: true},(error,client)=>{
     else
         console.log("Connected to database")
 
+    const db = client.db(databaseName);
+
+    db.collection('TeamcityCollection1').insertOne({
+        dis : "it's teamcity based local update"
+    },(err,res)=>{
+        console.log(res)
+    })
+
 })
+
