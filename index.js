@@ -16,6 +16,6 @@ MongoClient.connect(connectionUrl,{useNewUrlParser: true},(error,client)=>{
         dis : "it's teamcity based local update"
     },(err,res)=>{
         console.log(res)
+        client.close()
     })
-    client.close()
 })
