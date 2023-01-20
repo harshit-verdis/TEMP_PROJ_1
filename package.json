@@ -1,11 +1,10 @@
 {
   "name": "temp_proj_1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/harshit-verdis/TEMP_PROJ_1/issues"
   },
-  "homepage": "https://github.com/harshit-verdis/TEMP_PROJ_1#readme"
+  "homepage": "https://github.com/harshit-verdis/TEMP_PROJ_1#readme",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.4"
+  }
 }
